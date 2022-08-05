@@ -1,11 +1,12 @@
 // Array.prototype.findFake = function(func){
 //     let res;
 
-//     this.forEach(function(val){
-//         if(func(val)){
-//             res = val;
+//     for(let i =0; i< this.length; i++){
+//         if(func(this[i])){
+//             res = this[i];
+//             break;
 //         }
-//     });
+//     }
 
 //     return res;
 // }
@@ -80,3 +81,4 @@
 //     data: new Date()
 // })
 
+document.querySelector('body').style.background= "lightblue";
